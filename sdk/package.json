@@ -93,5 +93,6 @@
     "examples-ai-runtime",
     "tsconfig.ai-runtime.json",
     "README-meta.md"
-  ]
+  ],
+  "description": "Public Allternit SDK — AI runtime, OpenAPI client, harness, providers, ACP, and tools."
 }
