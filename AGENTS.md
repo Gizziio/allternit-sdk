@@ -7,7 +7,7 @@
 ```bash
 # There is no root install. Work inside the subdirectories:
 cd plugin-sdk && npm install && npm run build
-cd ../sdk              # dist/ is pre-built and committed
+cd ../sdk              # build dist/ with `bun sdk/js/script/build.ts` from the platform repo
 cd ../plugins/emailcomposercard-plugin && npm install && npm run build
 ```
 
@@ -15,7 +15,7 @@ cd ../plugins/emailcomposercard-plugin && npm install && npm run build
 
 | Directory | Build | Test | Notes |
 |-----------|-------|------|-------|
-| `sdk/` | `bun sdk/js/script/build.ts` (run from platform repo) | — | `dist/` is pre-built and committed |
+| `sdk/` | `bun sdk/js/script/build.ts` (run from platform repo) | — | `dist/` is build output, untracked |
 | `plugin-sdk/` | `npm run build` (tsc) | `npm run test` (vitest) | Self-contained package |
 | `plugins/*/` | `npm run build` (tsc) | — | Run `allternit-plugin validate` after build |
 
