@@ -2,6 +2,7 @@
 
 > **Allternit SDK Monorepo**
 > AI runtime, universal plugin SDK, and 12 ready-to-use card plugins for the Allternit platform.
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Packages
 
@@ -37,3 +38,8 @@ npm install -g @allternit/marketresearchcard-plugin
 - [`allternit-platform`](https://github.com/Gizziio/allternit-platform) — Core platform monorepo
 - [`gizzi-code`](https://github.com/Gizziio/gizzi-code) — Workspace-aware AI assistant CLI
 - [`allternit-docs`](https://github.com/Gizziio/allternit-docs) — Platform documentation
+
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE). Copyright 2026 Allternit LLC.
+Allternit, Gizzi, and A:// are trademarks of Allternit LLC (see [NOTICE](NOTICE)).

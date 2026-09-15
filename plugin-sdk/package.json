@@ -37,7 +37,7 @@
     "langchain"
   ],
   "author": "Allternit <plugins@allternit.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/allternit/plugin-sdk.git"

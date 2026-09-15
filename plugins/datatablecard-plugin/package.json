@@ -4,6 +4,7 @@
   "description": "Plugin based on DataTableCard.tsx template",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
